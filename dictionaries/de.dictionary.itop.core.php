@@ -27,7 +27,7 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 	'Core:UnknownObjectLabel' => 'Objekt nicht gefunden (Klasse: %1$s, id: %2$d)',
 	'Core:UnknownObjectTip' => 'Das Objekt konnte nicht gefunden werden. Es könnte bereits vor einiger Zeit gelöscht worden sein und das Log seither bereinigt.',
 
-	'Core:UniquenessDefaultError' => 'Uniqueness rule \'%1$s\' in error~~',
+	'Core:UniquenessDefaultError' => 'Eindeutigkeitsfehler: \'%1$s\'',
 
 	'Core:AttributeLinkedSet' => 'Array von Objekten',
 	'Core:AttributeLinkedSet+' => 'Beliebige Art von Objekten der [subclass] der selben Klasse',
@@ -92,9 +92,8 @@ Dict::Add('DE DE', 'German', 'Deutsch', array(
 
  	'Core:AttributeEncryptedString' => 'verschlüsselter String',
 	'Core:AttributeEncryptedString+' => 'mit einem lokalen Schüssel verschlüsselter String',
-	'Core:AttributeEncryptUnknownLibrary' => 'Encryption library specified (%1$s) unknown~~',
-	'Core:AttributeEncryptFailedToDecrypt' => '** decryption error **~~',
-
+	'Core:AttributeEncryptUnknownLibrary' => 'Angegebene Library zur Verschlüsslung (%1$s) ist unbekannt',
+	'Core:AttributeEncryptFailedToDecrypt' => '** Entschlüsslungsfehler **',
 	'Core:AttributeText' => 'Text',
 	'Core:AttributeText+' => 'Mehrzeiliger String',
 
